@@ -47,7 +47,7 @@ def set_client():
     }
     client = FivePaisaClient(cred=cred)
     at = get_and_save_access_token(client, file_paths.token_file)
-    print(at)
+    # print(at)
     return client
 
 def main():
